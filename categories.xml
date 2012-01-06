@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<categories timestamp="12345">
+    <category>
+        <id>1</id>
+        <name>Bar</name>
+    </category>
+    <category>
+        <id>2</id>
+        <name>Restaurant</name>
+    </category>
+</categories>

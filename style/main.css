@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#categories{
+    list-style: none;
+    position: absolute;
+    top: 15%;
+    right: 0px;
+    z-index: 100;
+    margin: 0;
+    padding: 10px 0;
+    width: 100px;
+    height: 70%;
+    background: rgba( 255, 255, 255, 0.9 );
+    border-radius: 20px 0 0 20px;
+    -moz-border-radius: 20px 0 0 20px;
+    -webkit-border-radius: 20px 0 0 20px;
+
+}
+#categories li{
+    list-style: none;
+    padding: 2px 0 2px 20px;
+    cursor: pointer;
+}
+#categories li.selected{
+    background: url(http://www.tavernoxoros.gr/graphics/check.png) no-repeat 5px center;
+}
+#categories li:hover{
+    background-color: #8af;
+}
+
+#map{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
